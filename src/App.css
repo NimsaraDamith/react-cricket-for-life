@@ -15,8 +15,18 @@ body{
   letter-spacing: 0.03rem;
   text-transform: uppercase;
 }
+.logo{
+    width: 40px;
+}
 .text-blue{
   color: var(--mainBlue);
+}
+.footer{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    margin: auto;
 }
 .text-bright{
   color:var(--lightBlue);
@@ -52,7 +62,7 @@ body{
     outline: none;
 }
 .navWrapper{
-    background: var(--mainBlue);
+    background: #98c64b;
 }
 .nav-link{
     color: var(--mainWhite)!important;
