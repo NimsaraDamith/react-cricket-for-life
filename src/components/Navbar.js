@@ -6,7 +6,7 @@ import logo from "../logo.png";
 export default  class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-sm navWrapper navbar-dark px-sm-5">
+            <nav className="navbar navbar-expand-sm navWrapper navbar-dark px-sm-5 fixed-top">
                 <Link to="/">
                     <img src={logo} alt="store" className="navbar-brand logo"/>
                     {/*
